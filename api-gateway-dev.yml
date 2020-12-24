@@ -4,18 +4,3 @@ application:
 
 server:
   port: 9002
-
-spring:
-  main:
-    allow-bean-definition-overriding: true
-  cloud:
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      globalcors:
-        corsConfigurations:
-          '[/**]':
-            allowedOrigins: "*"
-            allowedMethods:
-              - GET
