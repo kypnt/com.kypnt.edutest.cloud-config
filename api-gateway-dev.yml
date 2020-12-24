@@ -2,6 +2,9 @@
 application:
   message: Configured by Azure Spring Cloud (API G/W-dev)
 
+server:
+  port: 9002
+
 spring:
   main:
     allow-bean-definition-overriding: true
