@@ -8,6 +8,7 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: IAM-SERVICE
+      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/iam-service?retryWrites=true&w=majority
+      # host: localhost
+      # port: 27017
+      # database: IAM-SERVICE

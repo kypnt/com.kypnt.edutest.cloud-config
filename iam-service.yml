@@ -2,3 +2,13 @@
 
 application:
   message: Configured by Azure Spring Cloud (IAM)
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/iam-service?retryWrites=true&w=majority
+      # host: localhost
+      # port: 27017
+      # database: TEST-CENTRE-SERVICE
+      # username: edutest-dbuser
+      # password: edutest-dbuser
