@@ -1,4 +1,6 @@
 
-
 application:
   message: Configured by Azure Spring Cloud (TEST_CENTRE-dev)
+
+server:
+  port: 9001
