@@ -8,5 +8,5 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
+      host: http://localhost
       port: 27017
