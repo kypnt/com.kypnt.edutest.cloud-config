@@ -1,7 +1,5 @@
 
-
-application:
-  message: Configured by Azure Spring Cloud (IAM)
+secret-key: Kdf3969dKw22vpq99jhsJE
 
 spring:
   data:

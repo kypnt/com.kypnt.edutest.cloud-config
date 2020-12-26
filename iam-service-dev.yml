@@ -1,6 +1,5 @@
 
-application:
-  message: Configured by Azure Spring Cloud (IAM-dev)
+secret-key: Kdf3goI44sd5fUT73goW
 
 server:
   port: 9000
