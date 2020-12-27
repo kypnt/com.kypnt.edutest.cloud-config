@@ -1,6 +1,6 @@
 
-application:
-  message: Configured by Azure Spring Cloud (API G/W-dev)
+FILE_NAME: api-gateway-dev.yml
+ENV: dev
 
 server:
   port: 9002

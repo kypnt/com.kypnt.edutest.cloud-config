@@ -1,4 +1,3 @@
 
-
-application:
-  message: Configured by Azure Spring Cloud (TEST_CENTRE)
+FILE_NAME: test-centre-service.yml
+ENV: "-"

@@ -1,6 +1,6 @@
 
-application:
-  message: Configured by Azure Spring Cloud (API G/W)
+FILE_NAME: api-gateway.yml
+ENV: "-"
 
 spring:
   main:

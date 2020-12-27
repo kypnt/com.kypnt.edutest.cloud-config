@@ -1,4 +1,6 @@
 
+FILE_NAME: iam-service-dev.yml
+ENV: dev
 SECRET_KEY: 3b2662dc-451b-4b00-81be-a6cbfb28dece
 TOKEN_EXPIRE_IN_MIN: 30
 

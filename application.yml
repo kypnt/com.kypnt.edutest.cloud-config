@@ -1,4 +1,2 @@
 
-
-application:
-  message: Configured by Azure Spring Cloud
+FILE_NAME: application.yml

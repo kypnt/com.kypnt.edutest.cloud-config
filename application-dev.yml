@@ -1,4 +1,6 @@
 
+FILE_NAME: application-dev.yml
+
 eureka:
   client:
     register-with-eureka: true
