@@ -1,0 +1,9 @@
+
+FILE_NAME: test-centre-service-test.yml
+ENV: test
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/test-centre-service?retryWrites=true&w=majority
+      auto-index-creation: true

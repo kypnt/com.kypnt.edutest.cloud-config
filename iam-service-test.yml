@@ -1,0 +1,12 @@
+
+FILE_NAME: iam-service-test.yml
+ENV: test
+SECRET_KEY: c93a3a8c-6226-45d7-90e8-b673bd1e4aeb
+TOKEN_EXPIRE_IN_MIN: 30
+
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/iam-service?retryWrites=true&w=majority
+      auto-index-creation: true

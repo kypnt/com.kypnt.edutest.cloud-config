@@ -3,8 +3,3 @@ FILE_NAME: iam-service.yml
 ENV: "-"
 SECRET_KEY: 5b12388e-78b4-4790-97ae-13bbf136e933
 TOKEN_EXPIRE_IN_MIN: 10
-
-spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/iam-service?retryWrites=true&w=majority

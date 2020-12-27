@@ -8,6 +8,5 @@ server:
 spring:
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: TEST-CENTRE-SERVICE
+      uri: mongodb://localhost:27017/test-centre-service
+      auto-index-creation: true
