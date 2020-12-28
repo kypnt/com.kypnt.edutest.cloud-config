@@ -3,7 +3,7 @@ FILE_NAME: test-centre-service-dev.yml
 ENV: dev
 
 server:
-  port: 9001
+  port: 9002
 
 spring:
   data:
