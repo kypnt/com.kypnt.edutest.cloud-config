@@ -1,3 +1,4 @@
 
-FILE_NAME: api-gateway-test.yml
-ENV: test
+application:
+  fileName: api-gateway-test.yml
+  env: test

@@ -1,6 +1,7 @@
 
-FILE_NAME: test-centre-service-test.yml
-ENV: test
+application:
+  fileName: test-centre-service-test.yml
+  env: test
 
 spring:
   data:
