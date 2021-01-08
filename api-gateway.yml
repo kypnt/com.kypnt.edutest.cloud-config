@@ -3,6 +3,9 @@ application:
   fileName: api-gateway.yml
   env: ${spring.profiles.active}
 
+server:
+  port: ${SERVER_PORT:9000}
+
 spring:
   main:
     allow-bean-definition-overriding: true

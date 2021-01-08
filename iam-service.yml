@@ -1,4 +1,7 @@
 
+server:
+  port: ${SERVER_PORT:9001}
+
 application:
   fileName: iam-service.yml
   env: ${spring.profiles.active}
