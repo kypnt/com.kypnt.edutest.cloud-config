@@ -1,7 +1,7 @@
 
 application:
   fileName: test-centre-service-test.yml
-  env: test
+  env: ${spring.profiles.active}
 
 spring:
   data:

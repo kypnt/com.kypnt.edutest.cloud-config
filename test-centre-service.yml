@@ -1,4 +1,4 @@
 
 application:
   fileName: test-centre-service.yml
-  env: "-"
+  env: ${spring.profiles.active}

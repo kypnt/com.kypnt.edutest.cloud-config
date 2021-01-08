@@ -1,4 +1,4 @@
 
 application:
   fileName: api-gateway-test.yml
-  env: test
+  env: ${spring.profiles.active}
