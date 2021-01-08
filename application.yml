@@ -1,4 +1,8 @@
 
+application:
+  fileName: application.yml
+  env: ${spring.profiles.active}
+  
 eureka:
   client:
     register-with-eureka: true
