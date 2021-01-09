@@ -1,4 +1,0 @@
-
-application:
-  fileName: config-server-test.yml
-  env: ${spring.profiles.active}

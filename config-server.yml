@@ -1,7 +1,0 @@
-
-application:
-  fileName: config-server.yml
-  env: ${spring.profiles.active}
-
-server:
-  port: ${SERVER_PORT:8888}
