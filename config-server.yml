@@ -1,6 +1,6 @@
 
 application:
-  fileName: config-service.yml
+  fileName: config-server.yml
   env: ${spring.profiles.active}
 
 server:
