@@ -1,12 +1,12 @@
 
-server:
-  port: ${SERVER_PORT:9001}
-
 application:
   fileName: iam-service.yml
   env: ${spring.profiles.active}
-  secretKey: 5b12388e-78b4-4790-97ae-13bbf136e933
   tokenExpireInMin: 10
   securityExcludedUrls:
     - /api/health-check
     - /api/auth/**
+
+
+server:
+  port: ${SERVER_PORT:9001}
