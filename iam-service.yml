@@ -7,6 +7,5 @@ application:
     - /api/health-check
     - /api/auth/**
 
-
 server:
   port: ${SERVER_PORT:9001}
