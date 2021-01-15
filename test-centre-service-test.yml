@@ -4,7 +4,18 @@ application:
   env: ${spring.profiles.active}
 
 spring:
-  data:
-    mongodb:
-      uri: mongodb+srv://edutest-dbuser:edutest-dbuser@cluster0.s2cen.mongodb.net/test-centre-service?retryWrites=true&w=majority
-      auto-index-creation: true
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}/test-centre-service
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+        enable_lazy_load_no_trans: true
