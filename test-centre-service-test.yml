@@ -2,6 +2,7 @@
 application:
   fileName: test-centre-service-test.yml
   env: ${spring.profiles.active}
+  secretKey: c93a3a8c-6226-45d7-90e8-b673bd1e4aeb
 
 spring:
   datasource:
