@@ -4,11 +4,6 @@ application:
   env: ${spring.profiles.active}
   secretKey: c93a3a8c-6226-45d7-90e8-b673bd1e4aeb
   tokenExpireInMin: 3600
-  sendgrid:
-    apiKey: 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
-    forgetPasswordTemplateId: d-9989235a19c74ef9b054325ed254a0ec
-    fromEmail: edutestrest@yandex.com
-    forgetPasswordResetLink: http://localhost:9001/swagger-ui.html
 
 spring:
   datasource:
