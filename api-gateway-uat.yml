@@ -1,0 +1,4 @@
+
+application:
+  fileName: api-gateway-uat.yml
+  env: ${spring.profiles.active}

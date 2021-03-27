@@ -1,0 +1,23 @@
+
+application:
+  fileName: iam-service-uat.yml
+  env: ${spring.profiles.active}
+  secretKey: c93a3a8c-6226-45d7-90e8-b673bd1e4aeb
+  tokenExpireInMin: 3600
+
+spring:
+  datasource:
+    url: ${SPRING_DATASOURCE_URL}/iam-service
+    username: ${SPRING_DATASOURCE_USERNAME}
+    password: ${SPRING_DATASOURCE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+        implicit-strategy: org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy
+    properties:
+      hibernate:
+        show_sql: false
+        format_sql: false
+        enable_lazy_load_no_trans: true
