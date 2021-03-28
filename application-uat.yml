@@ -8,6 +8,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://uat-service-registry:8762/eureka
+      defaultZone: http://service-registry:8761/eureka
     instance:
       hostname: localhost
