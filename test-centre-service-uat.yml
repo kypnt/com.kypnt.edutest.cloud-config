@@ -5,8 +5,6 @@ application:
   secretKey: c93a3a8c-6226-45d7-90e8-b673bd1e4aeb
 
 spring:
-  application:
-    name: uat-test-centre-service
   datasource:
     url: ${SPRING_DATASOURCE_URL}/test-centre-service
     username: ${SPRING_DATASOURCE_USERNAME}
