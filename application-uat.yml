@@ -2,3 +2,12 @@
 application:
   fileName: application-uat.yml
   env: ${spring.profiles.active}
+  
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: https://edutestportal-service-registry.azuremicroservices.io/
+    instance:
+      hostname: localhost
