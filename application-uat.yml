@@ -8,6 +8,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: https://edutestportal.svc.azuremicroservices.io/eureka
+      defaultZone: https://edutestportal-service-registry.azuremicroservices.io/eureka
     instance:
       hostname: localhost
