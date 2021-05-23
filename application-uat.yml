@@ -7,7 +7,5 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: true
-    service-url:
-      defaultZone: ${BUILD_IN_EUREKA_CLIENT_SERVICEURL_DEFAULTZONE}
     instance:
       hostname: localhost
