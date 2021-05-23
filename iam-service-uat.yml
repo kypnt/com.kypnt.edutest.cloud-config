@@ -6,10 +6,10 @@ application:
   tokenExpireInMin: 3600
 
 spring:
-  datasource:
-    url: ${SPRING_DATASOURCE_URL}/iam-service
-    username: ${SPRING_DATASOURCE_USERNAME}
-    password: ${SPRING_DATASOURCE_PASSWORD}
+  #datasource:
+    #url: ${SPRING_DATASOURCE_URL}/iam-service
+    #username: ${SPRING_DATASOURCE_USERNAME}
+    #password: ${SPRING_DATASOURCE_PASSWORD}
   jpa:
     hibernate:
       ddl-auto: update
